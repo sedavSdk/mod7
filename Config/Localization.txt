@@ -1,0 +1,4 @@
+Key,russian
+
+MaximumHealthRank1LongDesc, бля буду
+MaximumHealthRank1Desc, привет

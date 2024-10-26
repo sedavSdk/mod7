@@ -1,0 +1,7 @@
+<configs>
+<!-- Тест аттрибутов-->
+<set xpath="/item_modifiers/item_modifier[@name='modArmorStrength']/effect_group[1]">
+    <passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="5"/>
+    <passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="5"/>
+</set>
+</configs>

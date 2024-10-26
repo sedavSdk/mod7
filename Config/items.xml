@@ -1,0 +1,50 @@
+<configs>
+<!-- Еда-->
+    <set xpath="/items/item[@name='foodCanCatfood']/effect_group/triggered_effect[1]/@value">20</set>
+    <set xpath="/items/item[@name='foodCanPears']/effect_group/triggered_effect[1]/@value">25</set>
+    <set xpath="/items/item[@name='foodCanChicken']/effect_group/triggered_effect[1]/@value">35</set>
+    <set xpath="/items/item[@name='foodCanMiso']/effect_group/triggered_effect[1]/@value">20</set>
+    <set xpath="/items/item[@name='foodCanLamb']/effect_group/triggered_effect[1]/@value">35</set>
+    <set xpath="/items/item[@name='foodCanBeef']/effect_group/triggered_effect[1]/@value">40</set>
+    <set xpath="/items/item[@name='foodCharredMeat']/effect_group/triggered_effect[1]/@value">20</set>
+    <set xpath="/items/item[@name='foodEggBoiled']/effect_group/triggered_effect[1]/@value">20</set>
+    <set xpath="/items/item[@name='foodCornOnTheCob']/effect_group/triggered_effect[1]/@value">20</set>
+    <set xpath="/items/item[@name='foodBakedPotato']/effect_group/triggered_effect[1]/@value">20</set>
+    <set xpath="/items/item[@name='foodCornBread']/effect_group/triggered_effect[1]/@value">20</set>
+    <set xpath="/items/item[@name='foodGrilledMeat']/effect_group/triggered_effect[1]/@value">25</set>
+    <set xpath="/items/item[@name='foodBoiledMeat']/effect_group/triggered_effect[1]/@value">30</set>
+    <set xpath="/items/item[@name='foodBaconAndEggs']/effect_group/triggered_effect[1]/@value">75</set>
+    <set xpath="/items/item[@name='foodBlueberryPie']/effect_group/triggered_effect[1]/@value">90</set>
+    <set xpath="/items/item[@name='foodPumpkinBread']/effect_group/triggered_effect[1]/@value">35</set>
+    <set xpath="/items/item[@name='foodPumpkinPie']/effect_group/triggered_effect[1]/@value">90</set>
+    <set xpath="/items/item[@name='foodPumpkinCheesecake']/effect_group/triggered_effect[1]/@value">80</set>
+    <set xpath="/items/item[@name='foodMeatStew']/effect_group/triggered_effect[1]/@value">100</set>
+    <set xpath="/items/item[@name='foodVegetableStew']/effect_group/triggered_effect[1]/@value">60</set>
+    <set xpath="/items/item[@name='foodSteakAndPotato']/effect_group/triggered_effect[1]/@value">100</set>
+    <set xpath="/items/item[@name='foodHoboStew']/effect_group/triggered_effect[1]/@value">100</set>
+    <set xpath="/items/item[@name='foodFishTacos']/effect_group/triggered_effect[1]/@value">90</set>
+    <set xpath="/items/item[@name='foodChiliDog']/effect_group/triggered_effect[1]/@value">100</set>
+    <set xpath="/items/item[@name='foodShamChowder']/effect_group/triggered_effect[1]/@value">100</set>
+    <set xpath="/items/item[@name='foodTunaFishGravyToast']/effect_group/triggered_effect[1]/@value">140</set>
+    <set xpath="/items/item[@name='foodShepardsPie']/effect_group/triggered_effect[1]/@value">150</set>
+    <set xpath="/items/item[@name='foodSpaghetti']/effect_group/triggered_effect[1]/@value">160</set>
+    <set xpath="/items/item[@name='foodGumboStew']/effect_group/triggered_effect[1]/@value">160</set>
+
+    <set xpath="/items/item[@name='foodCanMiso']/effect_group/triggered_effect[4]/@value">20</set>
+    <set xpath="/items/item[@name='foodCanPears']/effect_group/triggered_effect[4]/@value">15</set>
+    <set xpath="/items/item[@name='foodMeatStew']/effect_group/triggered_effect[4]/@value">40</set>
+    <set xpath="/items/item[@name='foodVegetableStew']/effect_group/triggered_effect[4]/@value">40</set>
+    <set xpath="/items/item[@name='foodHoboStew']/effect_group/triggered_effect[4]/@value">60</set>
+    <set xpath="/items/item[@name='foodShamChowder']/effect_group/triggered_effect[4]/@value">30</set>
+    <set xpath="/items/item[@name='foodGumboStew']/effect_group/triggered_effect[4]/@value">60</set>
+
+
+    <set xpath="/items/item[@name='drinkJarBoiledWater']/effect_group[1]/triggered_effect[1]/@value">50</set>
+    <set xpath="/items/item[@name='drinkJarGoldenRodTea']/effect_group[1]/triggered_effect[1]/@value">60</set>
+    <set xpath="/items/item[@name='drinkJarRedTea']/effect_group[1]/triggered_effect[1]/@value">60</set>
+    <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group[1]/triggered_effect[4]/@value">150</set>
+    <set xpath="/items/item[@name='drinkJarCoffee']/effect_group[1]/triggered_effect[1]/@value">60</set>
+    <set xpath="/items/item[@name='drinkJarYuccaJuice']/effect_group[1]/triggered_effect[1]/@value">70</set>
+    <set xpath="/items/item[@name='drinkJarBlackStrapCoffee']/effect_group[1]/triggered_effect[1]/@value">60</set>
+    <set xpath="/items/item[@name='drinkJarPureMineralWater']/effect_group[1]/triggered_effect[1]/@value">140</set>
+</configs>

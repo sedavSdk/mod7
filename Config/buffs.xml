@@ -1,0 +1,16 @@
+<configs>
+
+<set xpath="/buffs/buff[@name='buffSpearHunter7QuickStrike']/effect_group[1]">
+    <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".SpearHunter7QuickStrikeEffect" operation="set" value=".3"/>
+    <triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".SpearHunter7QuickStrikeEffect" operation="add" value=".3">
+        <requirement name="CVarCompare" cvar=".SpearHunter7QuickStrikeEffect" operation="LT" value=".9"/>
+    </triggered_effect>
+    <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".SpearHunter7QuickStrikeEffectDisplay" operation="set" value="@.SpearHunter7QuickStrikeEffect"/>
+    <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".SpearHunter7QuickStrikeEffectDisplay" operation="multiply" value="100"/>
+    <triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".SpearHunter7QuickStrikeEffectDisplay" operation="set" value="@.SpearHunter7QuickStrikeEffect"/>
+    <triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".SpearHunter7QuickStrikeEffectDisplay" operation="multiply" value="100"/>
+    <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar=".SpearHunter7QuickStrikeEffect,.SpearHunter7QuickStrikeEffectDisplay"/>
+    <requirement name="ItemHasTags" tags="perkJavelinMaster"/>
+        <passive_effect name="AttacksPerMinute" operation="perc_add" value="@.SpearHunter7QuickStrikeEffect" tags="perkJavelinMaster"/>
+</set>
+</configs>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+    <set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_fire']/Noise/@noise">1000</set>
+    <set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_fire']/Noise/@heat_map_strength">1000</set>
+
+    
+</configs>
