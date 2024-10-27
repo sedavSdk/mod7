@@ -47,4 +47,10 @@
     <set xpath="/items/item[@name='drinkJarYuccaJuice']/effect_group[1]/triggered_effect[1]/@value">70</set>
     <set xpath="/items/item[@name='drinkJarBlackStrapCoffee']/effect_group[1]/triggered_effect[1]/@value">60</set>
     <set xpath="/items/item[@name='drinkJarPureMineralWater']/effect_group[1]/triggered_effect[1]/@value">140</set>
+
+
+    <set xpath="/items/item[@name='armorLumberjackGloves']/effect_group[2]">
+		<passive_effect name="EntityDamage" operation="base_add" value="2,4,6,8,10,15" tier="1,2,3,4,5,6" tags="perkMiner69r"/>
+		<display_value name="dLumberJackDamage" value="2,4,6,8,10,15" tier="1,2,3,4,5,6"/>
+    </set>
 </configs>
